@@ -1,3 +1,10 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+    --primary-color:#333745;
+    --secundary-color: #E63462;
+    --terciary-color: #EEF5DB;
+    --primary-font: "Roboto", sans-serif;
+    --secundary-color: "Montserrat", sans-serif;
 }
