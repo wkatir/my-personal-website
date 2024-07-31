@@ -64,5 +64,29 @@ i {
 }
 
 section{
-    background-color: antiquewhite;
+    
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin: 2rem;
+    place-items: center;
+}
+
+.about-container-img{
+    display: flex;
+    height: 50vh;
+    gap: 1rem;
+}
+
+.about-img{
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-img:nth-child(2){
+    position: relative;
+    top: 50px;
 }
